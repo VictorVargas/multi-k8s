@@ -31,6 +31,6 @@ deploy:
   on:
     branch: master
   access_key_id:
-    secure: AKIAU634SUK53WVR7QNO
+    secure: $AWS_ACCESS_KEY
   secret_access_key:
-    secure: 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
+    secure: $AWS_SECRET_KEY
