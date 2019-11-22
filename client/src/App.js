@@ -14,7 +14,8 @@ function App() {
           <Link to="/otherpage">Other Page</Link>
         </header>
         <div>
-          <spam>Fib calculator</spam>
+          <h2 className="App-title">Version 2</h2>
+          <span>Fib calculator</span>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
